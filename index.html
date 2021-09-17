@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Samsung galaxy</title>
+      <!-- Booststrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="st.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+  </head>
+  <style>
+      .border{
+        border-style:inset;
+        width: 450px;
+        height: 304px;
+        border-radius: 12px;
+        background-color: #E5E4E2;
+        
+
+    }
+    .border-content
+    {
+        color:white;
+       
+    }
+    .mySlides{display: none;}
+
+      </style>
+  <body style="background-color: rgb(241, 241, 241);">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(94, 130, 197);">
+      <a class="navbar-brand" href="">SAMSUNG</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto" >
+          <!--in BootStrap-5 we ms-auto not ml-auto -->
+          
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown" style="margin-left: 100px;">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mobile
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: rgb(113, 139, 187);">
+                  <li><a class="dropdown-item" href="#">Galaxy Series</a></li>
+                  <li><a class="dropdown-item" href="#">Alpha series</a></li>
+                  <li><a class="dropdown-item" href="#">Note series</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home Accessories
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: rgb(113, 139, 187);">
+                  <li><a class="dropdown-item" href="#">Air cooler</a></li>
+                  <li><a class="dropdown-item" href="#">Refrigerator</a></li>
+                  <li><a class="dropdown-item" href="#">Washing Machine</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+       
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://gopinathide.github.io/bsamsung2/">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gopinathide.github.io/bsamsung1/">Sign in</a>
+          </li>
+        </ul>
+      </div>
+    </nav><br><br><br><br>
+    <div class="w3-content w3-section" style="max-width:1200px;max-height: 900px;margin-left: auto;margin-right: auto;">
+        <img class="mySlides" src="tv.webp" style="width:100%">
+        <img class="mySlides" src="washing.webp" style="width:100%">
+        <img class="mySlides" src="fridge.webp" style="width:100%">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+      <br><br><br>
+      <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 60px;text-align: center;">GALAXY SERIES</p>
+      <br><br><br><div class="border" style=" float: right;margin-right:100px;height: 400px;width: 700px;background-color:rgb(241, 241, 241) ;border: transparent;">
+        <div class="border-content" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 35px;color: black;">
+           <p style="margin-left: 60px;margin-right: 60px; margin-top: 30px;"> The Samsung Galaxy M series is a line of online-exclusive budget smartphones manufactured by Samsung Electronics.<br>The Galaxy M10s and M30s were announced on September 18, and both were released on September 29.
+            </div>
+            </div>
+            <img src="m.jpg" class="img-fluid" alt="..." style="width: 500px;height: 400px; margin-left: 150px;float: left;">
+      <br><br><br>
+      <img src="s.jpg" class="img-fluid" alt="..." style="width: 500px;height: 400px;float:right;margin-right: 100px; margin-top: 60px; ">
+      <div class="border" style=" float: left;margin-left:150px;height: 400px;width: 700px;margin-top: 60px; background-color:rgb(241, 241, 241) ;border: transparent;">
+        <div class="border-content" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 35px;color: black;">
+           <p style="margin-left: 60px;margin-right: 60px; margin-top: 30px;">The Samsung Galaxy S series is a line of high-end Android mobile devices produced by Samsung Electronics. Together with the Samsung Galaxy Note, the lineup serves as Samsung's flagship smartphone model. </p> 
+            </div>
+            </div>
+            <div class="border" style=" float: right;margin-right:100px;height: 400px;width: 700px;background-color:rgb(241, 241, 241) ;margin-top: 60px; border: transparent;">
+                <div class="border-content" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 35px;color: black;">
+                   <p style="margin-left: 60px;margin-right: 60px; margin-top: 30px;"> The Samsung Galaxy M series is a line of online-exclusive budget smartphones manufactured by Samsung Electronics.<br>The Galaxy M10s and M30s were announced on September 18, and both were released on September 29.
+                    </div>
+                    </div>
+                    <img src="z.jpg" class="img-fluid" alt="..." style="width: 500px;height: 400px; margin-left: 150px;float: left;margin-top: 60px;">
+              <br><br><br>
+              <img src="note.jpg" class="img-fluid" alt="..." style="width: 500px;height: 400px;float:right;margin-right: 100px; margin-top: 60px; ">
+              <div class="border" style=" float: left;margin-left:150px;height: 400px;width: 700px;margin-top: 60px; background-color:rgb(241, 241, 241) ;border: transparent;">
+                <div class="border-content" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 35px;color: black;">
+                   <p style="margin-left: 60px;margin-right: 60px; margin-top: 30px;">The Samsung Galaxy S series is a line of high-end Android mobile devices produced by Samsung Electronics. Together with the Samsung Galaxy Note, the lineup serves as Samsung's flagship smartphone model. </p> 
+                    </div>
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p style="text-align: center;margin-top: 100px;">Copyright @2020-2021 Samsung.gopi Al rights reserved.</p>
+                   <hr>
+                   <p style="margin-left: 500px;"><strong>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;FOLLOW US</strong><br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://www.facebook.com/" style="text-decoration: none;"><img src="fb.png" style="height: 30px;width:30px;"></a>&emsp;<a href="https://www.instagram.com/" style="text-decoration: none;"><img src="ins.jpg" style="height: 30px;width:30px;"></a>&emsp;<a href="https://twitter.com/?lang=en" style="text-decoration: none;"><img src="tw.jpg" style="height: 30px;width:30px;"></a>&emsp;<a href="https://www.whatsapp.com/?lang=en" style="text-decoration: none;"><img src="wh.jpg" style="height: 30px;width:30px;"></a>&emsp;<a href="https://in.linkedin.com/" style="text-decoration: none;"><img src="li.png" style="height: 30px;width:30px;"></a>&emsp; </p><br><br><hr>
+                    
+</body>
+</html>                    
